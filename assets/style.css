@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(90deg, #2da5f5, #69d8fa);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+  margin-top: 10%;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  height: 190px;
+  width: 190px;
+}
+
+#informaçoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 5px 15px 5px;
+  padding: 15px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#anterior, #proximo {
+  font-size: 30px;
+}
+
+#play-pause {
+  font-size: 30px;
+}
+
+#anterior:hover, #proximo:hover, #play-pause:hover {
+  transform: scale(1.05);
+}
+
+#container-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
